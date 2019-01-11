@@ -16,6 +16,16 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy":{
+    "/api/*":{
+      "target":"https://mreazurereact.azurewebsites.net/",
+      "secure":false,
+        "headers":{
+          "host": "mreazurereact.azurewebsites.net/"
+        },
+        "cookieDomainRewrite": ""
+    }
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
