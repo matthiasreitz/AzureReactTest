@@ -10,6 +10,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             YES WE CAN 
+            reproduce the ol ddevoops thingy...
           </p>
           <a
             className="App-link"
